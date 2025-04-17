@@ -9,8 +9,8 @@ interface ProjectCardProps {
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Link href={project.link} className="block group">
-      <div className="bg-gray-50 dark:bg-gray-900 overflow-hidden">
-        <div className="relative aspect-video">
+      <div className="overflow-hidden">
+        <div className="relative aspect-video rounded-xs overflow-hidden">
           <Image
             src={project.image || "/placeholder.svg"}
             alt={project.title}
@@ -18,9 +18,9 @@ export function ProjectCard({ project }: ProjectCardProps) {
             className="object-cover transition-transform duration-300 group-hover:scale-105"
           />
         </div>
-        <div className="p-4">
-          <div className="flex justify-between items-center mb-2">
-            <h3 className="text-xl font-medium">{project.title}</h3>
+        <div className="pt-2">
+          <div className="flex justify-between items-center">
+            <h3 className="text-md">{project.title}</h3>
             <span className="text-sm text-gray-500 dark:text-gray-400">— {project.year}</span>
           </div>
           <p className="text-sm text-gray-600 dark:text-gray-400">{project.description}</p>
