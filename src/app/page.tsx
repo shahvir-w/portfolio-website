@@ -4,21 +4,22 @@ import { Header } from "@/components/header"
 import { ProjectGrid } from "@/components/projects/project-grid"
 import { Project } from "@/lib/types"
 
+
 // Sample project data - replace with your own
 const projects: Project[] = [
   {
     id: 1,
     title: "Document Analyser RAG",
     year: "2025",
-    description: "AI-powered document analysis web app with RAG powered search capabilities",
-    image: "/placeholder.svg",
+    description: "AI-powered RAG document analysis web app",
+    image: "/Document_Analyzing_RAG_Image.png",
     link: "#",
   },
   {
     id: 2,
     title: "Event Booking Platform Backend",
     year: "2025",
-    description: "Microservices-based event booking system with domain-driven architecture",
+    description: "Microservices-based event booking system",
     image: "/placeholder.svg",
     link: "#",
   },
@@ -26,24 +27,33 @@ const projects: Project[] = [
     id: 3,
     title: "3D Flight Tracker",
     year: "2025",
-    description: "Real-time flight tracking app with interactive 3D globe visualization",
-    image: "/placeholder.svg",
+    description: "Real-time flight tracking app",
+    image: "/3D_Flight_Tracker_Image.png",
     link: "#",
   },
   {
     id: 4,
     title: "Biquadris (CS 246 Final Project)",
     year: "2024",
-    description: "Multiplayer version of Tetris with Object-Oriented Design",
+    description: "Multiplayer version of Tetris with OOD Principles",
     image: "/placeholder.svg",
     link: "#",
   },
+  {
+    id: 5,
+    title: "Locked In",
+    year: "2024",
+    description: "Task management mobile app",
+    image: "/placeholder.svg",
+    link: "#",
+  },
+  
 ]
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-[#121212] text-black dark:text-white">
-      <main className="container mx-auto px-6 py-8 max-w-8xl">
+      <main className="container mx-auto px-4 md:px-8 lg:px-8 py-8 max-w-[1400px]">
         <Header />
         <ProjectGrid projects={projects} />
       </main>
