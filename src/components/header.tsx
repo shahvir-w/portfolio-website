@@ -4,15 +4,15 @@ import { Github, Linkedin, Mail, ExternalLink } from "lucide-react"
 function SocialLinks() {
   return (
     <>
-      <Link href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 cursor-pointer transition-opacity">
+      <Link href="https://github.com/shahvir-w" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 cursor-pointer transition-opacity">
         <Github className="h-5 w-5 text-white" />
         <span className="sr-only">GitHub</span>
       </Link>
-      <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 cursor-pointer transition-opacity">
+      <Link href="https://www.linkedin.com/in/shahvir-wahab-744a58247/" target="_blank" rel="noopener noreferrer" className="hover:opacity-70 cursor-pointer transition-opacity">
         <Linkedin className="h-5 w-5 text-white" />
         <span className="sr-only">LinkedIn</span>
       </Link>
-      <Link href="mailto:example@email.com" className="hover:opacity-70 cursor-pointer transition-opacity">
+      <Link href="mailto:wshahvir@gmail.com" className="hover:opacity-70 cursor-pointer transition-opacity">
         <Mail className="h-5 w-5 text-white" />
         <span className="sr-only">Email</span>
       </Link>
