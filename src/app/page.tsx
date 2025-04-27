@@ -45,7 +45,7 @@ const projects: Project[] = [
     title: "Locked In",
     year: "2024",
     description: "Task management mobile app",
-    image: "/Locked_In_App_image.png",
+    image: "/Locked_In_App_Image.png",
     link: "#",
   },
   
