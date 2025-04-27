@@ -16,14 +16,6 @@ const projects: Project[] = [
     link: "#",
   },
   {
-    id: 2,
-    title: "Event Booking Platform Backend",
-    year: "2025",
-    description: "Microservices-based event booking system",
-    image: "/placeholder.svg",
-    link: "#",
-  },
-  {
     id: 3,
     title: "3D Flight Tracker",
     year: "2025",
@@ -32,11 +24,20 @@ const projects: Project[] = [
     link: "#",
   },
   {
+    id: 2,
+    title: "Event Booking Platform Backend",
+    year: "2025",
+    description: "Microservices-based event booking system",
+    image: "/Event_Booking_App_Image.png",
+    link: "#",
+  },
+  
+  {
     id: 4,
     title: "Biquadris (CS 246 Final Project)",
     year: "2024",
     description: "Multiplayer version of Tetris with OOD Principles",
-    image: "/placeholder.svg",
+    image: "/Biquadris_Game_Image.png",
     link: "#",
   },
   {
@@ -44,7 +45,7 @@ const projects: Project[] = [
     title: "Locked In",
     year: "2024",
     description: "Task management mobile app",
-    image: "/placeholder.svg",
+    image: "/Locked_In_App_image.png",
     link: "#",
   },
   
