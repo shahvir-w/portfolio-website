@@ -2,7 +2,6 @@
 
 import { Header } from "@/components/header"
 import { ProjectGrid } from "@/components/projects/project-grid"
-import { Project } from "@/lib/types"
 import { projectsList } from "@/data/projects"
 
 export default function Home() {
