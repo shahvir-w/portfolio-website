@@ -24,8 +24,8 @@ export function Header() {
   return (
     <header className="mb-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
       <div className="flex flex-col gap-2">
-        <h1 className="text-3xl font-bold">Shahvir Wahab</h1>
-        <p className="text-gray-600 dark:text-gray-400 max-w-md">
+        <h1 className="text-3xl font-bold text-white">Shahvir Wahab</h1>
+        <p className="text-gray-300 max-w-md">
           Fullstack software developer studying Computer Science at the University of Waterloo.
         </p>
       </div>

@@ -7,4 +7,6 @@ export type Project = {
   links: string[]
   fullDescription: string
   technologies: string[]
-} 
+}
+
+export type ProjectId = keyof typeof import('@/data/projects').projects 
