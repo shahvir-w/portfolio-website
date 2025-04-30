@@ -35,7 +35,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         <div className="pt-2">
           <div className="flex justify-between items-center">
             <h3 className="text-md">{project.title}</h3>
-            <span className="text-sm text-gray-500 dark:text-gray-400">— {project.year}</span>
+            <span className="text-sm text-gray-500 dark:text-gray-400">— {project.year.split(" ")[1]}</span>
           </div>
           <p className="text-sm text-gray-600 dark:text-gray-400">{project.description}</p>
         </div>

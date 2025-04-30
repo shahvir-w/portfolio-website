@@ -4,52 +4,52 @@ export const projects: { [key: string]: Project } = {
   "documentanalyzer": {
     id: 1,
     title: "Document Analyser RAG",
-    year: "2024",
+    year: "March 2025",
     description: "AI-powered RAG document analysis web app",
     image: "/Document_Analyzing_RAG_Image.png",
-    links: ["#", "#", "#"],
-    fullDescription: "An AI-powered document analysis tool using Retrieval Augmented Generation (RAG) to provide intelligent insights and summaries from uploaded documents.",
-    technologies: ["Python", "OpenAI", "Vector DB", "Next.js"]
+    links: ["https://github.com/shahvir-w/Document-RAG-App", "https://github.com/shahvir-w/Document-RAG-App"],
+    fullDescription: "An AI-powered document analysis tool using Retrieval Augmented Generation (RAG) to provide intelligent summaries from uploaded documents, and a chat interface for interacting with the AI.",
+    technologies: ["Python", "Langchain", "FastAPI", "React", "Redis", "Celery", "ChromaDB", "OpenAI"]
   },
   "flighttracker": {
     id: 2,
     title: "3D Flight Tracker",
-    year: "2024",
+    year: "February 2025",
     description: "Real-time flight tracking app",
     image: "/3D_Flight_Tracker_Image.png",
-    links: ["#", "#", "#"],
-    fullDescription: "A sophisticated real-time flight tracking application that visualizes aircraft movements in 3D space. Built with modern web technologies and real-time data integration.",
-    technologies: ["Next.js", "Three.js", "WebGL", "Real-time API"]
+    links: ["https://github.com/shahvir-w/3d-flight-tracker", "https://github.com/shahvir-w/3d-flight-tracker"],
+    fullDescription: "A sophisticated flight tracking application with a fun 3D globe view. Uses real-time flight data from AeroAPI.",
+    technologies: ["Node.js", "Express", "React", "Mapbox GL", "REST API"]
   },
   "eventbooking": {
     id: 3,
     title: "Event Booking Platform Backend",
-    year: "2024",
+    year: "April 2025",
     description: "Microservices-based event booking system",
     image: "/Event_Booking_App_Image.png",
-    links: ["#", "#", "#"],
-    fullDescription: "A scalable microservices architecture for handling event bookings, featuring robust payment processing and real-time availability updates.",
-    technologies: ["Node.js", "Docker", "Kubernetes", "MongoDB"]
+    links: ["https://github.com/shahvir-w/Event-Booking-System"],
+    fullDescription: "A scalable microservices architecture for handling event bookings, featuring an API gateway, service layer abstraction, and database integration.",
+    technologies: ["Java", "Spring Boot", "Apache Kafka", "PostgreSQL", "Docker", "Flyway"]
   },
   "biquadris": {
     id: 4,
     title: "Biquadris",
-    year: "2024",
+    year: "November 2024",
     description: "Multiplayer version of Tetris with OOD Principles",
     image: "/Biquadris_Game_Image.png",
-    links: ["#", "#", "#"],
-    fullDescription: "A multiplayer adaptation of Tetris implementing Object-Oriented Design principles, featuring local multiplayer and custom game modes.",
-    technologies: ["C++", "OOP", "SDL2", "Make"]
+    links: ["https://github.com/shahvir-w/Biquadris_Game_Fall24"],
+    fullDescription: "A multiplayer adaptation of Tetris implementing Object-Oriented Design principles, featuring local multiplayer and custom game levels.",
+    technologies: ["C++", "Xlib", "MVC"]
   },
   "lockedin": {
     id: 5,
     title: "Locked In",
-    year: "2024",
+    year: "August 2024",
     description: "Task management mobile app",
     image: "/Locked_In_App_Image.png",
-    links: ["#", "#", "#"],
+    links: ["https://github.com/shahvir-w/Locked-In", "https://apps.apple.com/us/app/locked-in-daily-tasks-tracker/id6711331425?platform=iphone"],
     fullDescription: "A mobile task management application focused on productivity and time management, with features for task prioritization and progress tracking.",
-    technologies: ["React Native", "Firebase", "Redux", "TypeScript"]
+    technologies: ["React Native", "JavaScript", "Expo", "Firebase"]
   }
 }
 
