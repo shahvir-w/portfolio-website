@@ -33,10 +33,10 @@ export function Header() {
         <div className="flex items-center gap-3">
           <SocialLinks />
         </div>
-        <Link href="#" className="hover:opacity-70 cursor-pointer transition-opacity flex items-center">
+        {/* <Link href="#" className="hover:opacity-70 cursor-pointer transition-opacity flex items-center">
           <ExternalLink className="h-4 w-4 mr-1 text-white" />
           <span className="text-sm text-white">View Resume</span>
-        </Link>
+        </Link> */}
       </div>
     </header>
   )

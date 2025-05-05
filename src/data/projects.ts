@@ -7,7 +7,7 @@ export const projects: { [key: string]: Project } = {
     year: "March 2025",
     description: "AI-powered RAG document analysis web app",
     image: "/Document_Analyzing_RAG_Image.png",
-    links: ["https://github.com/shahvir-w/Document-RAG-App", "https://github.com/shahvir-w/Document-RAG-App"],
+    links: ["https://github.com/shahvir-w/Document-RAG-App"],
     fullDescription: "An AI-powered document analysis tool using Retrieval Augmented Generation (RAG) to provide intelligent summaries from uploaded documents, and a chat interface for interacting with the AI.",
     technologies: ["Python", "Langchain", "FastAPI", "React", "Redis", "Celery", "ChromaDB", "OpenAI"]
   },
@@ -15,10 +15,10 @@ export const projects: { [key: string]: Project } = {
     id: 2,
     title: "3D Flight Tracker",
     year: "February 2025",
-    description: "Real-time flight tracking app",
+    description: "Flight tracking web app",
     image: "/3D_Flight_Tracker_Image.png",
-    links: ["https://github.com/shahvir-w/3d-flight-tracker", "https://github.com/shahvir-w/3d-flight-tracker"],
-    fullDescription: "A sophisticated flight tracking application with a fun 3D globe view. Uses real-time flight data from AeroAPI.",
+    links: ["https://github.com/shahvir-w/3d-flight-tracker"],
+    fullDescription: "A sophisticated flight tracking application with a fun 3D globe view. Uses flight data from AeroAPI.",
     technologies: ["Node.js", "Express", "React", "Mapbox GL", "REST API"]
   },
   "eventbooking": {
