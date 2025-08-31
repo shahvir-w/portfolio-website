@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Linkedin, Mail, ExternalLink } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
 
 function SocialLinks() {
   return (
